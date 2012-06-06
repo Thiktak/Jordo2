@@ -1,3 +1,11 @@
+JordoUserBundle:
+    resource: "@JordoUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+fos_user:
+    resource: "@JordoUserBundle/Resources/config/routing.yml"
+
 JordoCoreBundle:
     resource: "@JordoCoreBundle/Controller/"
     type:     annotation
